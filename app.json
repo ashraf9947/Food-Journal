@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "RestaurantChooser",
+    "slug": "restaurantchooser",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/appIcon.png",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03be0d78-348f-4a9d-837d-5e423a4ec840"
+      }
+    }
+  }
+}
