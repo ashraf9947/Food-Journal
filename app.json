@@ -1,27 +1,32 @@
 {
   "expo": {
-    "name": "RestaurantChooser",
-    "slug": "restaurantchooser",
+    "name": "foodJournalTracker",
+    "slug": "foodJournalTracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icons/appIcon.png",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/icons/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "ios": {
+      "supportsTablet": true
     },
-    "extra": {
-      "eas": {
-        "projectId": "03be0d78-348f-4a9d-837d-5e423a4ec840"
-      }
-    }
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.foodJournalTracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
   }
 }
