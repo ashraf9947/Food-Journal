@@ -61,9 +61,8 @@ A simple yet powerful React Native journaling app that lets users log their meal
    ```bash
    git clone https://github.com/ashraf9947/Food-Journal.git
    cd Food-Journal
-   
-npm install
-npx expo start
+   npm install
+   npx expo start
 
 
 
