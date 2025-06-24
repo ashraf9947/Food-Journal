@@ -1,44 +1,69 @@
-# 🍽️ Restaurant Chooser App
+# 🍽️ Food Journal App
 
-A cross-platform mobile app built with **React Native** and **Expo** that helps groups decide where to eat by selecting participants, applying filters, and voting on restaurant choices.
- Features
-- Add and manage restaurants:
-  - Name, cuisine, rating, delivery, website, and phone number
-- Add and manage people involved in decisions
-- Pre-filter restaurants by:
-  - Cuisine type
-  - Price
-  - Rating
-  - Delivery availability
-- Random restaurant selection
-- Veto logic for participants (each person gets one veto)
-- Local data persistence with AsyncStorage
-- Form validation using Yup and visual error feedback
-- Custom reusable components (`CustomButton`, `CustomTextInput`)
-- Responsive layout using Flexbox
-## 🚀 Getting Started
-### Prerequisites
-Make sure you have:
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- Expo CLI installed globally:
-  ```bash
-  npm install -g expo
-  
-Installation
-Clone the repository:
-bash
-git clone https://github.com/ashraf9947/restaurant-chooser-app.git
-cd restaurant-chooser-app
-Install dependencies:
-bash
+A simple yet powerful React Native journaling app that lets users log their meals with photos, descriptions, and categories — using **Expo**, **SQLite**, and local device camera.
+
+---
+
+## 📸 Features
+
+- 📷 Take or upload photos of meals
+- 📝 Add a description for each meal
+- 🗂️ Choose a category (e.g., Breakfast, Lunch, Dinner)
+- 🔍 Filter journal entries by category
+- 💾 All data saved locally using `expo-sqlite`
+- 🔄 Swipe or scroll through entries
+- ✏️ Edit / 🗑️ Delete journal entries *(coming soon)*
+
+
+## 📱 Screenshots
+
+| Take Photo | Browse Journals |
+|------------|-----------------|
+| ![Take Photo UI](./screenshots/take_photo.png) | ![Journal List UI](./screenshots/journal_list.png) |
+
+> Feel free to customize the UI — this app is built for learning, testing, and expanding!
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/ashraf9947/Food-Journal.git
+   cd Food-Journal
+# 🍽️ Food Journal App
+
+A simple yet powerful React Native journaling app that lets users log their meals with photos, descriptions, and categories — using **Expo**, **SQLite**, and local device camera.
+
+## 📸 Features
+
+- 📷 Take or upload photos of meals
+- 📝 Add a description for each meal
+- 🗂️ Choose a category (e.g., Breakfast, Lunch, Dinner)
+- 🔍 Filter journal entries by category
+- 💾 All data saved locally using `expo-sqlite`
+- 🔄 Swipe or scroll through entries
+- ✏️ Edit / 🗑️ Delete journal entries *(coming soon)*
+
+## 📱 Screenshots
+
+| Take Photo | Browse Journals |
+|------------|-----------------|
+| ![Take Photo UI](./screenshots/take_photo.png) | ![Journal List UI](./screenshots/journal_list.png) |
+
+> Feel free to customize the UI — this app is built for learning, testing, and expanding!
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/ashraf9947/Food-Journal.git
+   cd Food-Journal
+   
 npm install
-Start the app:
-bash
-expo start
-
-
-
+npx expo start
 
 
 
